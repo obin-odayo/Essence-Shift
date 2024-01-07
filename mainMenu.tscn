@@ -1,0 +1,34 @@
+[gd_scene load_steps=2 format=3 uid="uid://1y0allbk02ea"]
+
+[ext_resource type="Script" path="res://mainMenu.gd" id="1_yn60m"]
+
+[node name="mainMenu" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_yn60m")
+
+[node name="Title" type="Label" parent="."]
+layout_mode = 0
+offset_right = 552.0
+offset_bottom = 141.0
+theme_override_font_sizes/font_size = 151
+text = "Essence Shift"
+
+[node name="PauseButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 222.0
+offset_right = 221.0
+offset_bottom = 344.0
+text = "Play"
+
+[node name="QuitButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 3.0
+offset_top = 380.0
+offset_right = 221.0
+offset_bottom = 502.0
+text = "Quit"
+
+[connection signal="pressed" from="PauseButton" to="." method="_on_play_button_pressed"]
+[connection signal="pressed" from="QuitButton" to="." method="_on_exit_button_pressed"]

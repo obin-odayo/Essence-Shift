@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://cgj565f0lvo7u"]
+
+[ext_resource type="Script" path="res://characters/skelter.gd" id="1_v2ehj"]
+[ext_resource type="Texture2D" uid="uid://ctvxkvr3fftwl" path="res://icon.svg" id="2_wss82"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dk2nm"]
+size = Vector2(135.5, 185.5)
+
+[node name="Node2D" type="CharacterBody2D"]
+script = ExtResource("1_v2ehj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+scale = Vector2(0.984, 0.703)
+shape = SubResource("RectangleShape2D_dk2nm")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_wss82")

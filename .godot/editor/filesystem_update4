@@ -1,3 +1,9 @@
-res://level_1.tscn
+res://mainMenu.tscn
+res://mainMenu.gd
 res://characters/skelter.tscn
+res://level_1.tscn
+res://playerControls.tscn
 res://characters/skelter.gd
+res://pauseMenu.tscn
+res://pauseMenu.gd
+res://level_1.gd

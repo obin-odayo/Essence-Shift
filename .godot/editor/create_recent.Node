@@ -1,6 +1,10 @@
+Camera2D
 Node2D
-Panel
-StaticBody2D
 CollisionShape2D
 Sprite2D
 CharacterBody2D
+Control
+Button
+Label
+Panel
+StaticBody2D
