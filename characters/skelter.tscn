@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" path="res://characters/skelter.gd" id="1_v2ehj"]
 [ext_resource type="Texture2D" uid="uid://ctvxkvr3fftwl" path="res://icon.svg" id="2_wss82"]
-[ext_resource type="PackedScene" uid="uid://8lypj1ylwyyk" path="res://pauseMenu.tscn" id="3_53vtp"]
+[ext_resource type="PackedScene" uid="uid://8lypj1ylwyyk" path="res://UI/pauseMenu/pauseMenu.tscn" id="3_53vtp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_faskt"]
 size = Vector2(133.74, 133.46)

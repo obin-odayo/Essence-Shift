@@ -7,3 +7,5 @@ res://characters/skelter.gd
 res://pauseMenu.tscn
 res://pauseMenu.gd
 res://level_1.gd
+res://UI/mainMenu/mainMenu.gd
+res://UI/pauseMenu/pauseMenu.gd
