@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://cptilwte13ash"]
 
-[ext_resource type="Script" path="res://characters/skelter.gd" id="1_v2ehj"]
+[ext_resource type="Script" path="res://characters/skelter/skelter.gd" id="1_v2ehj"]
 [ext_resource type="Texture2D" uid="uid://ctvxkvr3fftwl" path="res://icon.svg" id="2_wss82"]
 [ext_resource type="PackedScene" uid="uid://8lypj1ylwyyk" path="res://UI/pauseMenu/pauseMenu.tscn" id="3_53vtp"]
 

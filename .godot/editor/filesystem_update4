@@ -9,3 +9,5 @@ res://pauseMenu.gd
 res://level_1.gd
 res://UI/mainMenu/mainMenu.gd
 res://UI/pauseMenu/pauseMenu.gd
+res://game/level_1/level_1.tscn
+res://characters/skellyBro/skellyBro.tscn

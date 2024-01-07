@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://clo38oqb2iah6"]
+
+[ext_resource type="Texture2D" uid="uid://ctvxkvr3fftwl" path="res://icon.svg" id="1_p2dki"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_6gdr4"]
+
+[node name="SkellyBro" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_6gdr4")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+rotation = -1.88203
+texture = ExtResource("1_p2dki")
