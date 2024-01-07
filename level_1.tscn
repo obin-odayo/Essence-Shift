@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://b5lkgaqncquh6"]
+
+[ext_resource type="PackedScene" uid="uid://cgj565f0lvo7u" path="res://characters/skelter.tscn" id="1_fbply"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0srbc"]
+size = Vector2(411, 20)
+
+[node name="Level1" type="Node2D"]
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(207, 591)
+scale = Vector2(1, 5.72)
+shape = SubResource("RectangleShape2D_0srbc")
+
+[node name="Panel" type="Panel" parent="."]
+offset_left = 6.0
+offset_top = 537.0
+offset_right = 408.0
+offset_bottom = 658.0
+
+[node name="Node2D" parent="." instance=ExtResource("1_fbply")]
+position = Vector2(88, 437)
